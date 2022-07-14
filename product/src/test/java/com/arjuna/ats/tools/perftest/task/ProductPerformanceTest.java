@@ -159,8 +159,8 @@ public class ProductPerformanceTest
         output.close();
     }
 
-    @Test
-    //Jacorb does not compile with JDK11, Resolve this with JBTM-3640
+    //@Test
+    //Jacorb does not work with JDK11 (java.lang.NoClassDefFoundError: javax/rmi/CORBA/Stub), Resolve this with JBTM-3640
     public void testProduct() throws Exception {
         TaskResult results[] = new TaskResult[products.length];
 
