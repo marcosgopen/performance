@@ -160,6 +160,7 @@ public class ProductPerformanceTest
     }
 
     @Test
+    //Jacorb does not compile with JDK11, Resolve this with JBTM-3640
     public void testProduct() throws Exception {
         TaskResult results[] = new TaskResult[products.length];
 
