@@ -9,7 +9,7 @@
         <entry key="HornetqJournalEnvironmentBean.asyncIO">true</entry>
         <entry key="HornetqJournalEnvironmentBean.storeDir">target/narayana</entry>
         <!-- default for NIO is 300 and for AIO it's 2000 -->
-        <entry key="HornetqJournalEnvironmentBean.bufferFlushesPerSecond">14812</entry>
+        <entry key="HornetqJournalEnvironmentBean.bufferFlushesPerSecond">28812</entry>
 <!--         <entry key="HornetqJournalEnvironmentBean.bufferFlushesPerSecond">300</entry> -->
         <entry key="HornetqJournalEnvironmentBean.syncDeletes">false</entry>
         <!-- default for NIO is 1 and for AIO it's 500 -->
