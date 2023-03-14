@@ -20,7 +20,6 @@
         <dependency>
             <groupId>jakarta.ws.rs</groupId>
             <artifactId>jakarta.ws.rs-api</artifactId>
-            <version>${version.jakarta.ws.rs-api}</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.arquillian.junit</groupId>
@@ -29,12 +28,12 @@
         <dependency>
             <groupId>org.wildfly.core</groupId>
             <artifactId>wildfly-cli</artifactId>
+            <version>20.0.0.Beta7</version>
             <classifier>client</classifier>
         </dependency>
         <dependency>
             <groupId>jakarta.xml.bind</groupId>
             <artifactId>jakarta.xml.bind-api</artifactId>
-            <version>${version.jakarta.xml.bind-api}</version>
         </dependency>
     </dependencies>
 </project>
