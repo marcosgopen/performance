@@ -212,6 +212,18 @@
             <artifactId>transactions-jdbc</artifactId>
             <version>${version.com.atomikos.transactions-jdbc}</version>
         </dependency>
+        <!-- OpenLiberty dependencies -->
+        
+        <dependency>
+            <groupId>io.openliberty.api</groupId>
+            <artifactId>io.openliberty.transaction</artifactId>
+            <version>1.1.87</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.websphere.appserver.api</groupId>
+            <artifactId>com.ibm.websphere.appserver.api.transaction</artifactId>
+            <version>1.1.19</version>
+        </dependency>
         <!-- geronimo dependencies -->
         <dependency>
             <groupId>org.apache.geronimo.components</groupId>
