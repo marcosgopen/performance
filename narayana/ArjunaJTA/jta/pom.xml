@@ -224,6 +224,12 @@
             <artifactId>com.ibm.websphere.appserver.api.transaction</artifactId>
             <version>1.1.19</version>
         </dependency>
+        <dependency>
+            <groupId>io.openliberty.features</groupId>
+            <artifactId>com.ibm.websphere.appserver.transaction-2.0</artifactId>
+            <version>24.0.0.3</version>
+            <type>esa</type>
+        </dependency>
         <!-- geronimo dependencies -->
         <dependency>
             <groupId>org.apache.geronimo.components</groupId>
